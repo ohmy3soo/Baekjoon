@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class b_2438 {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class b_2438 {
 
 		for(int i=1; i<=N; i++) {
 			for(int j=1; j<=i; j++)
-				System.out.print('*');
+				System.out.print("*");
 			System.out.println();
 		}
 	}
